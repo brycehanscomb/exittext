@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:32px;
+  font-size:36px;
 }
 
 h2 {
@@ -33,6 +33,22 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+
+.install-button
+{
+  display: inline-block;
+  padding: 0.4em 1em;
+  border: 1px solid #5e9612;
+  margin: 0 0 10px;
+  color: #fff;
+  background: #69a619;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px -2px #111, inset 0 2px 5px 0 rgba(255, 255, 255, 0.3);
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 a {
@@ -59,7 +75,8 @@ a small {
 
 .full-width
 {
-  width: 100%;
+  width: 99%;
+  border: 1px solid #999;
 }
 
 blockquote {
