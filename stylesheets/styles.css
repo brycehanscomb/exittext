@@ -52,6 +52,12 @@ a small {
   background-color: white;
   border: 1px solid #999;
   text-align: center;
+  padding: 25px;
+}
+
+.full-width
+{
+  width: 100%;
 }
 
 blockquote {
